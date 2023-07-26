@@ -26,7 +26,7 @@ import gcp from "./tech/gcp.png"
 
 import dso from "./company/dso.png"
 import sciencecentre from "./company/sciencecentre.png"
-import mePicture from "./mePicture.jpg"
+import mePicture from "./MePicture.jpg"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
