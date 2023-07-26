@@ -3,6 +3,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "../components/canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { gmail, linkedin, github } from "../assets";
 
 const ContactPage = () => {
   return (
@@ -17,15 +18,15 @@ const ContactPage = () => {
           Feel free to contact me via any of the means below!
         </p>
         <a className="cursor-pointer p-2 hover:bg-secondary hover:bg-opacity-50 rounded-lg flex items-center w-fit" href="https://www.linkedin.com/in/anthony-tamzil/">
-          <img src="/src/assets/linkedin.png" alt="" className=" w-5 h-5 object-contain mr-2"/>
+          <img src={linkedin} alt="" className=" w-5 h-5 object-contain mr-2"/>
           @Anthony Tamzil
         </a>
         <a className="cursor-pointer p-2 hover:bg-secondary hover:bg-opacity-50 rounded-lg flex items-center w-fit" href="https://github.com/anthonytamzil">
-          <img src="/src/assets/github.png" alt="" className=" w-5 h-5 object-contain mr-2"/>
+          <img src={github} alt="" className=" w-5 h-5 object-contain mr-2"/>
           @anthonytamzil
         </a>
-        <a className="cursor-pointer p-2 hover:bg-secondary hover:bg-opacity-50 rounded-lg flex items-center w-fit" href="https://www.linkedin.com/in/anthony-tamzil/">
-          <img src="/src/assets/gmail.png" alt="" className=" w-5 h-5 object-contain mr-2"/>
+        <a className="cursor-pointer p-2 hover:bg-secondary hover:bg-opacity-50 rounded-lg flex items-center w-fit" href="mailto:anthony.tamzil@gmail.com">
+          <img src={gmail} alt="" className=" w-5 h-5 object-contain mr-2"/>
           anthony.tamzil@gmail.com
         </a>
       </motion.div>
