@@ -10,6 +10,7 @@ import {
   useTexture
 } from "@react-three/drei";
 import CanvasLoader from "../Loader";
+import { InstancedMesh } from 'three';
 
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
@@ -39,7 +40,7 @@ const Ball = (props) => {
 
 const BallCanvas = ({ icon }) => {
   return (
-    <Canvas frameloop="demand" gl={{preserveDrawingBuffer: true}}>
+    <Canvas>
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls 
           enableZoom={false}

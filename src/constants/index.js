@@ -112,6 +112,14 @@ import {
       name: "firebase",
       icon: firebase,
     },
+    {
+      name: "gcp",
+      icon: gcp,
+    },
+    {
+      name: "mysql",
+      icon: mysql,
+    },
   ];
   
   const experiences = [
