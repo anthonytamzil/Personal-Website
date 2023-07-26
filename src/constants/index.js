@@ -7,22 +7,22 @@ import {
     typescript,
     html,
     css,
+    sciencecentre,
+    python,
     reactjs,
-    redux,
+    firebase,
+    java,
+    dso,
     tailwind,
     nodejs,
-    mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
-    threejs,
+    gcp,
+    mysql,
+    nextjs,
   } from "../assets";
   
   export const navLinks = [
@@ -61,6 +61,18 @@ import {
   
   const technologies = [
     {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -69,20 +81,20 @@ import {
       icon: css,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
       name: "TypeScript",
       icon: typescript,
+    },
+    {
+      name: "MySQL",
+      icon: mysql,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Next JS",
+      icon: nextjs,
     },
     {
       name: "Tailwind CSS",
@@ -93,78 +105,59 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
+      name: "firebase",
+      icon: firebase,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Machine Learning Research Intern",
+      company_name: "DSO National Laboratories",
+      icon: dso,
+      iconBg: "#FFFFFF",
+      date: "Feb 2022 - May 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked on Bidirectional Encoder Representations from Transformers (BERT) and XLM-RoBERTa, with the use of PyTorch and Google Cloud Platform.",
+        "Improved a pre-trained state-of-the-art Natural Language Processing (NLP) BERT model structure, by incorporating vectorization and parallel processing techniques, to achieve an approximately 50% reduction in processing time.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Machine Learning Research Intern",
+      company_name: "DSO National Laboratories",
+      icon: dso,
+      iconBg: "#FFFFFF",
+      date: "Oct 2018 - Dec 2018",
+      points: [
+        "Successfully integrated multiple components (JeVois Smart Vision Camera, Raspberry Pi 3) into a single system with the use of Robotic Operating System (ROS) on a TurtleBot3.",
+        "Researched on integrating a Convolutional Neural Network (CNN) with a JeVois Smart Vision Camera to detect human faces.",
+      ],
+    },
+    {
+      title: "Student Researcher",
+      company_name: "Centre for Research and Applied Learning in Science (CRADLΣ)",
+      icon: sciencecentre,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Nov 2017 - Dec 2017",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed a working prototype of a flux gate magnetometer that is capable of detecting any disturbances in Earth's magnetic field within a close proximity. ",
+        "Applied basic physics and algebraic concepts as well as grasped a substantial understanding of hardware serial for Arduino Uno.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Student Researcher",
+      company_name: "Centre for Research and Applied Learning in Science (CRADLΣ)",
+      icon: sciencecentre,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jun 2016 - Jul 2016",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed a working prototype of an autonomous algal filtration device.",
+        "Utilized relevant hardware skills (soldering, breadboard wiring) to assemble the device, and basic Arduino to program on-board sensors and servo motors",
+        "Used LibreCAD to laser cut a custom body for the prototype's hardware.",
       ],
     },
   ];
