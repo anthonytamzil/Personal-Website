@@ -1,7 +1,4 @@
 import {
-    mobile,
-    backend,
-    creator,
     web,
     javascript,
     typescript,
@@ -9,6 +6,7 @@ import {
     css,
     sciencecentre,
     python,
+    vercel,
     reactjs,
     firebase,
     java,
@@ -18,6 +16,7 @@ import {
     git,
     figma,
     carrent,
+    canvas,
     jobit,
     tripguide,
     gcp,
@@ -45,23 +44,54 @@ import {
       title: "Web Developer",
       icon: web,
     },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+
   ];
+
+  const tools = [
+    {
+      name: "React",
+      icon: reactjs,
+    },
+    {
+      name: "Next",
+      icon: nextjs,
+    },
+    {
+      name: "Tailwind",
+      icon: tailwind,
+    },
+    {
+      name: "Node",
+      icon: nodejs,
+    },
+    {
+      name: "Git",
+      icon: git,
+    },
+    {
+      name: "Figma",
+      icon: figma,
+    },
+    {
+      name: "Vercel",
+      icon: vercel,
+    },
+  ]
+
+  const database = [
+    {
+      name: "Firebase",
+      icon: firebase,
+    },
+    {
+      name: "GCP",
+      icon: gcp,
+    },
+  ]
   
   const technologies = [
     {
-      name: "JavaScript",
+      name: "JS",
       icon: javascript,
     },
     {
@@ -73,51 +103,19 @@ import {
       icon: java,
     },
     {
-      name: "HTML 5",
+      name: "HTML",
       icon: html,
     },
     {
-      name: "CSS 3",
+      name: "CSS",
       icon: css,
     },
     {
-      name: "TypeScript",
+      name: "TS",
       icon: typescript,
     },
     {
       name: "MySQL",
-      icon: mysql,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Next JS",
-      icon: nextjs,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "firebase",
-      icon: firebase,
-    },
-    {
-      name: "gcp",
-      icon: gcp,
-    },
-    {
-      name: "mysql",
       icon: mysql,
     },
   ];
@@ -179,45 +177,33 @@ import {
       company: "Acme Co",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Canvas++",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A university student helper web-app that integrates the functionality of Canvas (Learning Management System), NUSMods (Semester Planning System), NUSNextBus (University Shuttle Timing System) into a single site, complemented with productivity features and timetable optimization algorithms to assist users.",
       tags: [
         {
-          name: "react",
+          name: "nextJS",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "tailwindCSS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "typescript",
           color: "pink-text-gradient",
         },
+        {
+          name: "firebase",
+          color: "orange-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: canvas,
+      source_code_link: "https://github.com/ElginTZM/CanvasPlusPlus",
     },
     {
       name: "Job IT",
@@ -263,4 +249,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, tools, database };

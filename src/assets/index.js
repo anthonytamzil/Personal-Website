@@ -23,12 +23,14 @@ import java from "./tech/java.png";
 import mysql from "./tech/mysql.png";
 import nextjs from "./tech/nextjs.png";
 import firebase from "./tech/firebase.png";
-import gcp from "./tech/gcp.png"
+import gcp from "./tech/gcp.png";
+import vercel from "./tech/vercel.png";
 
 import dso from "./company/dso.png"
 import sciencecentre from "./company/sciencecentre.png"
 import mePicture from "./MePicture.jpg"
 import carrent from "./carrent.png";
+import canvas from "./canvas++.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -41,11 +43,13 @@ export {
   python,
   mePicture,
   gmail,
+  vercel,
   mysql,
   linkedin,
   firebase,
   web,
   github,
+  canvas,
   menu,
   nextjs,
   close,

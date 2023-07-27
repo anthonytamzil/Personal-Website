@@ -1,16 +1,16 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/no-unknown-property */
-import { Suspense } from 'react';
-import { Canvas } from "@react-three/fiber";
+import { Suspense, useRef } from 'react';
+import { Canvas, useThree } from "@react-three/fiber";
 import {
   Decal,
   Float,
   OrbitControls,
   Preload,
+  useAspect,
   useTexture
 } from "@react-three/drei";
 import CanvasLoader from "../Loader";
-import { InstancedMesh } from 'three';
 
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
@@ -38,17 +38,26 @@ const Ball = (props) => {
   )
 }
 
-const BallCanvas = ({ icon }) => {
+const BallCanvas = ({ array }) => {
   return (
-    <Canvas>
-      <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls 
-          enableZoom={false}
-        />
-        <Ball imgUrl={icon}/>
-      </Suspense>
-      <Preload all/>
-    </Canvas>
+    <>
+      hi
+    </>
+    // <Canvas camera={{ position: [0, 0, 20], fov: 25}} className='h-fit'>
+    //   <Suspense fallback={<CanvasLoader />}>
+    //     <OrbitControls 
+    //       enableZoom={false}
+    //     />
+    //       <Flex size={[50, 20, 0]} flexDirection="row" flexWrap="wrap">
+    //         {array.map((tech) => (
+    //           <Box key={tech.icon} margin={1}>
+    //             <Ball imgUrl={tech.icon} />
+    //           </Box>
+    //         ))}
+    //       </Flex>
+    //     </Suspense>
+    //   <Preload all/>
+    // </Canvas>
   )
 }
 
