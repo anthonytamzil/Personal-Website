@@ -14,12 +14,11 @@ import {
     tailwind,
     nodejs,
     git,
+    summarised,
     figma,
-    carrent,
     canvas,
-    jobit,
-    tripguide,
     gcp,
+    doitvolunteering,
     mysql,
     nextjs,
   } from "../assets";
@@ -210,45 +209,49 @@ import {
       source_code_link: "https://github.com/ElginTZM/CanvasPlusPlus",
     },
     {
-      name: "Job IT",
+      name: "DO-IT-Volunteering",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A website designed to streamline the volunteering registration process for volunteers and manpower management for the organizations.",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "vanillaCSS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: doitvolunteering,
+      source_code_link: "https://github.com/anthonytamzil/DO-IT-Volunteering",
     },
     {
-      name: "Trip Guide",
+      name: "Summarised",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A website that summarizes lecture videos and pdf documents for students to create cheatsheets and notes quickly and effortlessly.",
       tags: [
         {
-          name: "nextjs",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "vanillaCSS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "javascript",
           color: "pink-text-gradient",
         },
+        {
+          name: "nodejs",
+          color: "orange-text-gradient",
+        },
       ],
-      image: tripguide,
+      image: summarised,
       source_code_link: "https://github.com/",
     },
   ];

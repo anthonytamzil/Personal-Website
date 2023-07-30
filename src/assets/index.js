@@ -29,10 +29,9 @@ import vercel from "./tech/vercel.png";
 import dso from "./company/dso.png"
 import sciencecentre from "./company/sciencecentre.png"
 import mePicture from "./MePicture.jpg"
-import carrent from "./carrent.png";
 import canvas from "./canvas++.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import doitvolunteering from "./doitvolunteering.png";
+import summarised from "./summarised.png";
 
 export {
   logo,
@@ -40,8 +39,10 @@ export {
   creator,
   mobile,
   gcp,
+  summarised,
   python,
   mePicture,
+  doitvolunteering,
   gmail,
   vercel,
   mysql,
@@ -65,7 +66,4 @@ export {
   tailwind,
   typescript,
   sciencecentre,
-  carrent,
-  jobit,
-  tripguide,
 };
