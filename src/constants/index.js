@@ -8,8 +8,10 @@ import {
     python,
     vercel,
     reactjs,
+    humanactivity,
     firebase,
     java,
+    diamond,
     dso,
     tailwind,
     nodejs,
@@ -181,6 +183,43 @@ import {
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
   ];
+
+  const machine_learning_projects = [
+    {
+      name: "User Activity Recognition",
+      description:
+        "A LSTM machine learning model that obtained a 95% accuracy in predicting a handphone user's physical activity based on accelerometer data.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "keras",
+          color: "green-text-gradient",
+        },
+      ],
+      image: humanactivity,
+      source_code_link: "https://colab.research.google.com/drive/1-I37fbj1ANgnHcBjPQKBWKoC5EOP19I1?usp=sharing",
+    },
+    {
+      name: "Diamond Price Prediction",
+      description:
+        "A machine learning model based on random forest regression that obtained extremely high accuracy in predicting diamond prices based on the diamond's attributes.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "sklearn",
+          color: "green-text-gradient",
+        },
+      ],
+      image: diamond,
+      source_code_link: "https://drive.google.com/file/d/1finxhyhT-iNov7XHOcTM_zZry-DjKTyX/view?usp=sharing",
+    },
+  ];
   
   const projects = [
     {
@@ -189,7 +228,7 @@ import {
         "A university student helper web-app that integrates the functionality of Canvas (Learning Management System), NUSMods (Semester Planning System), NUSNextBus (University Shuttle Timing System) into a single site, complemented with productivity features and timetable optimization algorithms to assist users.",
       tags: [
         {
-          name: "nextJS",
+          name: "nextjs",
           color: "blue-text-gradient",
         },
         {
@@ -252,8 +291,8 @@ import {
         },
       ],
       image: summarised,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ElginTZM/Lifehack2023",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects, tools, database };
+  export { services, technologies, experiences, testimonials, projects, tools, database, machine_learning_projects };

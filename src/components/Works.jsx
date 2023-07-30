@@ -2,13 +2,26 @@ import { Tilt } from "react-tilt";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github, googlecolab } from "../assets";
 import { SectionWrapper } from "../hoc";
-import { projects } from "../constants";
+import { projects, machine_learning_projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
   const [isMobile, setIsMobile] = useState(false);
+  let imageType = "";
+
+  switch (name) {
+    case "Diamond Price Prediction":
+      imageType = googlecolab;
+      break;
+    case "User Activity Recognition":
+      imageType = googlecolab;
+      break;
+    default:
+      imageType = github;
+      break;
+  }
 
   useEffect(() => {
     // Add a listener for changes to screen size
@@ -48,7 +61,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img 
-                src={github}
+                src={imageType}
                 alt="github"
                 className="w-1/2 h-1/2 object-contain"
               />
@@ -85,8 +98,15 @@ const WorksPage = () => {
           which are targeted towards solving problems with different technologies.
         </motion.p>
       </div>
-      <div className="mt-20 flex flex-wrap gap-7">
+      <motion.p className="mt-10 text-3xl font-semibold text-secondary" variants={fadeIn("left", "spring", 0.4, 0.75)}>Software Engineering</motion.p>
+      <div className="mt-6 flex flex-wrap gap-7">
         {projects.map((project, index) => (
+          <ProjectCard key={`project-${index}`} {...project} index={index} />
+        ))}
+      </div>
+      <motion.p className="mt-10 text-3xl font-semibold text-secondary" variants={fadeIn("left", "spring", 0.8, 0.75)}>Machine Learning</motion.p>
+      <div className="mt-6 flex flex-wrap gap-7">
+        {machine_learning_projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} {...project} index={index} />
         ))}
       </div>
@@ -94,6 +114,6 @@ const WorksPage = () => {
   )
 }
 
-const Works = SectionWrapper(WorksPage, "");
+const Works = SectionWrapper(WorksPage, "project");
 
 export default Works;

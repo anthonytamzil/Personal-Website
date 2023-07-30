@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import googlecolab from "./googlecolab.png";
 import linkedin from "./linkedin.png";
 import gmail from "./gmail.png";
 import menu from "./menu.svg";
@@ -32,17 +33,22 @@ import mePicture from "./MePicture.jpg"
 import canvas from "./canvas++.png";
 import doitvolunteering from "./doitvolunteering.png";
 import summarised from "./summarised.png";
+import diamond from "./diamond.png";
+import humanactivity from "./humanactivity.png"
 
 export {
   logo,
+  humanactivity,
   backend,
   creator,
   mobile,
+  diamond,
   gcp,
   summarised,
   python,
   mePicture,
   doitvolunteering,
+  googlecolab,
   gmail,
   vercel,
   mysql,
