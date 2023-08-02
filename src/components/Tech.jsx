@@ -35,13 +35,13 @@ const TechPage = () => {
           <TechCard key={tech.icon} props={tech} /> 
         ))}
       </div>
-      <motion.p className="mt-3 text-3xl font-semibold text-secondary" variants={fadeIn("left", "spring", 0.8, 0.75)}>Tools and Frameworks</motion.p>
+      <motion.p className="mt-3 text-3xl font-semibold text-secondary" variants={fadeIn("left", "spring", 0.6, 0.75)}>Tools and Frameworks</motion.p>
       <div className="mt-3 flex flex-wrap gap-2">
         {tools.map((tech) => (
           <TechCard key={tech.icon} props={tech} /> 
         ))}
       </div>
-      <motion.p className="mt-3 text-3xl font-semibold text-secondary" variants={fadeIn("left", "spring", 1.2, 0.75)}>Databases</motion.p>
+      <motion.p className="mt-3 text-3xl font-semibold text-secondary" variants={fadeIn("left", "spring", 0.8, 0.75)}>Databases</motion.p>
       <div className="mt-3 flex flex-wrap gap-2">
         {database.map((tech) => (
           <TechCard key={tech.icon} props={tech} /> 
