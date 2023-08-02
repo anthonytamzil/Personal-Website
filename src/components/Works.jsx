@@ -1,4 +1,4 @@
-import { Tilt } from "react-tilt";
+import Tilt from "react-parallax-tilt";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
@@ -47,6 +47,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           scale: 1,
           speed: 450,
         }}
+        tiltEnable={isMobile ? false : true}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div className="relative w-full h-[230px]">

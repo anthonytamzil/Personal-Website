@@ -27,11 +27,11 @@ const ExtracurricularPage = () => {
           Conducted a workshop for 20 participants on our research and LSTM code implementation
         </li>
       </motion.ul>
-      <motion.div className="mt-2 text-secondary text-lg italic flex flex-col md:flex-row font-medium" variants={fadeIn("left", "spring", 0.5, 0.75)}>
+      <motion.div className="mt-2 text-secondary text-lg italic flex flex-col md:flex-row font-medium" variants={fadeIn("left", "spring", 0.6, 0.75)}>
         <p className="grow">Machine Learning Tech Analyst - Trainee</p>
         <p className=" not-italic">Aug 2022 - Dec 2022</p>
       </motion.div>
-      <motion.ul className="mt-1 list-disc text-gray-200 ml-12" variants={fadeIn("left", "spring", 0.5, 0.75)}>
+      <motion.ul className="mt-1 list-disc text-gray-200 ml-12" variants={fadeIn("left", "spring", 0.6, 0.75)}>
         <li>
           Completed a semester-long training programme on machine learning models, time series and various fundamental machine learning concepts
         </li>
