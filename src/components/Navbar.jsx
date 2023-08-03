@@ -29,6 +29,7 @@ const Navbar = () => {
     <nav className={`${styles.paddingX} w-full absolute flex py-5 top-0 z-20 bg-primary`}>
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link 
+          href="/"
           to="/" 
           className="flex items-center gap-2" 
           onClick={() => {

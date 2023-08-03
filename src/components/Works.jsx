@@ -40,7 +40,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
   }, [])
 
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className="cursor-pointer">
+    <motion.a variants={fadeIn("up", "spring", index * 0.5, 0.75)} className="cursor-pointer" href={`/${name}`}>
       <Tilt 
         options={{
           max: 45,
@@ -81,7 +81,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           ))}
         </div>
       </Tilt>
-    </motion.div>
+    </motion.a>
   )
 }
 

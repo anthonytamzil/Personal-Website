@@ -1,3 +1,4 @@
 import SectionWrapper from "./SectionWrapper";
+import AltSectionWrapper from "./AltSectionWrapper";
 
-export { SectionWrapper };
+export { SectionWrapper, AltSectionWrapper };

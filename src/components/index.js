@@ -9,16 +9,22 @@ import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import Extracurricular from './Extracurricular';
+import CanvasComp from './CanvasComp';
+import ProjectNavbar from './ProjectNavbar';
+import ProjectAbout from "./ProjectAbout";
 
 export {
   Hero,
   Navbar,
+  CanvasComp,
   About,
   Tech,
+  ProjectAbout,
   Education,
   Experience,
   Works,
   Feedbacks,
+  ProjectNavbar,
   Contact,
   Extracurricular,
   EarthCanvas, 
