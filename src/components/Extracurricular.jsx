@@ -3,6 +3,37 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import { keras, python } from "../assets";
+
+const fintech = [
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Keras",
+    icon: keras,
+  }
+
+];
+
+const TechCard = ({props}) => {
+  const [show, setShow] = useState(false);
+  const label = "h-4 w-fit text-sm font-medium";
+  const imgLabel = props.name === "Vercel"
+    ? "h-9 w-11 items-center my-auto"
+    : "h-11 w-11 items-center my-auto"
+
+  return (
+    <div className="flex flex-col w-11 items-center text-center" onMouseOver={() => setShow(true)} onMouseOut={() => setShow(false)}>
+      <img src={props.icon} alt="" className={imgLabel}/>
+      <motion.p className={label} animate={show ? {opacity: 100} : {opacity: 0}}>
+        {props.name}
+      </motion.p>
+    </div>
+  )
+}
 
 const ExtracurricularPage = () => {
   return (
@@ -39,6 +70,11 @@ const ExtracurricularPage = () => {
           Completed an internal projects on stock price prediction and an internal Kaggle competition on social media comment sentiment analysis
         </li>
       </motion.ul>
+      <div className="ml-1 mt-3 flex flex-wrap gap-3">
+        {fintech.map((tech) => (
+          <TechCard key={tech.icon} props={tech} /> 
+        ))}
+      </div>
     </>
   )
 }

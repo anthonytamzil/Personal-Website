@@ -26,6 +26,7 @@ import nextjs from "./tech/nextjs.png";
 import firebase from "./tech/firebase.png";
 import gcp from "./tech/gcp.png";
 import vercel from "./tech/vercel.png";
+import keras from "./tech/keras.png";
 
 import dso from "./company/dso.png"
 import sciencecentre from "./company/sciencecentre.png"
@@ -41,6 +42,7 @@ export {
   humanactivity,
   backend,
   creator,
+  keras,
   mobile,
   diamond,
   gcp,
