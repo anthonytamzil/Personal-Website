@@ -1,6 +1,6 @@
 import Tilt from "react-parallax-tilt";
 import { useState, useEffect } from "react";
-import { motion } from "framer-motion";
+import { animate, motion } from "framer-motion";
 import { styles } from "../styles";
 import { github, googlecolab } from "../assets";
 import { SectionWrapper } from "../hoc";
@@ -39,8 +39,9 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
     }
   }, [])
 
+
   return (
-    <motion.a variants={fadeIn("up", "spring", index * 0.5, 0.75)} className="cursor-pointer" href={`/${name}`}>
+    <motion.a whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }} variants={fadeIn("up", "spring", index * 0.5, 0.75)} className="cursor-pointer" href={`/${name}`}>
       <Tilt 
         options={{
           max: 45,
