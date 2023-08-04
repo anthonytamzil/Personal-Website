@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { SectionWrapper } from "../hoc";
+import { AltSectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { useState } from "react";
 import { tailwind, typescript, python, firebase, figma, nextjs, reactjs, canvaslogo, canvasposter } from "../assets";
@@ -66,31 +66,31 @@ const CanvasPage = () => {
           Complemented with productivity features and timetable optimization algorithms to assist users during module registration, Canvas++ aims to be the one-stop go-to platform for university students.
         </motion.p>
       </motion.div>
-      <motion.div className="mt-4 ml-6 text-[17px] text-white font-medium flex" variants={fadeIn("left", "spring", 0.5, 0.75)}>
+      <motion.div className="mt-4 ml-6 text-[17px] text-white font-medium flex flex-wrap" variants={fadeIn("left", "spring", 0.5, 0.75)}>
         <p>Web-App Link</p>
         <a className="ml-4 text-[#915eff]" href="https://canvasplusplus--development-4nz19h22.web.app">Canvas++</a>
       </motion.div>
-      <motion.div className="ml-6 text-[17px] text-white font-medium flex" variants={fadeIn("left", "spring", 0.5, 0.75)}>
+      <motion.div className="ml-6 text-[17px] text-white font-medium flex flex-wrap" variants={fadeIn("left", "spring", 0.5, 0.75)}>
         <p>Report</p>
         <a className="ml-4 text-[#915eff]" href="https://docs.google.com/document/d/1yjqyzh3p23yfwCj-rEUJTlrjQFTXa2Mq/edit?usp=sharing&ouid=107315989031654876603&rtpof=true&sd=true">NUS Orbital Milestone 3 Report</a>
       </motion.div>
-      <motion.div className="ml-6 text-[17px] text-white font-medium flex" variants={fadeIn("left", "spring", 0.5, 0.75)}>
+      <motion.div className="ml-6 text-[17px] text-white font-medium flex flex-wrap" variants={fadeIn("left", "spring", 0.5, 0.75)}>
         <p>Presentation Video</p>
         <a className="ml-4 text-[#915eff]" href="">NUS Orbital Milestone 3 Video</a>
       </motion.div>
-      <motion.div className="ml-6 text-[17px] text-white font-medium flex" variants={fadeIn("left", "spring", 0.5, 0.75)}>
+      <motion.div className="ml-6 text-[17px] text-white font-medium flex flex-wrap" variants={fadeIn("left", "spring", 0.5, 0.75)}>
         <p>Poster</p>
         <a className="ml-4 text-[#915eff]" href="https://drive.google.com/file/d/1HpfmMsL5kr9loiWqSJdVyTN0Rbz1DnBy/view?usp=sharing">NUS Orbital Milestone 3 Poster</a>
       </motion.div>
-      <motion.div className="ml-6 text-[17px] text-white font-medium flex" variants={fadeIn("left", "spring", 0.5, 0.75)}>
+      <motion.div className="ml-6 text-[17px] text-white font-medium flex flex-wrap" variants={fadeIn("left", "spring", 0.5, 0.75)}>
         <p>Award</p>
         <a className="ml-4 text-[#915eff]" href="">Achieved Artemis (Extreme) in Orbital 2023</a>
       </motion.div>
-      <motion.div className="ml-6 text-[17px] text-white font-medium flex" variants={fadeIn("left", "spring", 0.5, 0.75)}>
+      <motion.div className="ml-6 text-[17px] text-white font-medium flex flex-wrap" variants={fadeIn("left", "spring", 0.5, 0.75)}>
         <p>Platform</p>
         <p className="ml-4">Web</p>
       </motion.div>
-      <motion.div className="ml-6 text-[17px] text-white font-medium flex" variants={fadeIn("left", "spring", 0.5, 0.75)}>
+      <motion.div className="ml-6 text-[17px] text-white font-medium flex flex-wrap" variants={fadeIn("left", "spring", 0.5, 0.75)}>
         <p>Github Source</p>
         <a className="ml-4 text-[#915eff]" href="https://github.com/ElginTZM/CanvasPlusPlus">Github Repo (Private)</a>
       </motion.div>
@@ -99,7 +99,7 @@ const CanvasPage = () => {
           <TechCard key={tech.icon} props={tech} /> 
         ))}
       </motion.div>
-      <motion.p className="mt-4 text-xl font-medium flex sm:text-2xl text-secondary uppercase tracking-wider" variants={fadeIn("left", "spring", 0.5, 0.75)}>
+      <motion.p className="mt-8 text-xl font-medium flex sm:text-2xl text-secondary uppercase tracking-wider" variants={fadeIn("left", "spring", 0.5, 0.75)}>
         Project Showcase
       </motion.p>
       <img src={canvaslogo} className="w-3/4 md:w-1/4 mx-auto mt-4"/>
@@ -109,6 +109,6 @@ const CanvasPage = () => {
   )
 }
 
-const CanvasComp = SectionWrapper(CanvasPage, "");
+const CanvasComp = AltSectionWrapper(CanvasPage, "");
 
 export default CanvasComp;
