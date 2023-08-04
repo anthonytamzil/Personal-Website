@@ -39,18 +39,22 @@ import humanactivity from "./humanactivity.png"
 
 import canvaslogo from "./canvaslogo.png";
 import canvasposter from "./canvasposter.png";
+import devpost from "./devpost.png";
+import doitdashboard from "./doitdashboard.png";
 
 export {
   logo,
   humanactivity,
   backend,
   creator,
+  devpost,
   keras,
   mobile,
   diamond,
   gcp,
   summarised,
   canvasposter,
+  doitdashboard,
   python,
   mePicture,
   doitvolunteering,

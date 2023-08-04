@@ -12,12 +12,14 @@ import Extracurricular from './Extracurricular';
 import CanvasComp from './CanvasComp';
 import ProjectNavbar from './ProjectNavbar';
 import ProjectAbout from "./ProjectAbout";
+import DoItComp from "./DoItComp";
 
 export {
   Hero,
   Navbar,
   CanvasComp,
   About,
+  DoItComp,
   Tech,
   ProjectAbout,
   Education,
