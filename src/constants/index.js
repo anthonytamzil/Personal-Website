@@ -225,14 +225,14 @@ import {
     {
       name: "Canvas++",
       description:
-        "A university student helper web-app that integrates the functionality of Canvas (Learning Management System), NUSMods (Semester Planning System), NUSNextBus (University Shuttle Timing System) into a single site, complemented with productivity features and timetable optimization algorithms to assist users.",
+        "A web-app designed to assist university students by organizing their hectic academic schedules and combining different essential university services into a one-stop platform.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "tailwindCSS",
+          name: "tailwind",
           color: "green-text-gradient",
         },
         {
