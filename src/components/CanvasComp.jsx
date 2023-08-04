@@ -61,7 +61,7 @@ const CanvasPage = () => {
           <h2 className="font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[40px] grow text-[#dfd0ff]">Canvas++</h2>
           <p className="items-center flex text-white md:text-[24px] sm:text-[20px] xs:text-[20px] text-[15px] font-medium">May 2023 - Aug 2023</p>
         </div>
-        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-3 text-secondary text-[17px] leading-[30px]">
+        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-3 text-secondary text-[17px] leading-[30px] text-center sm:text-left">
           A university student helper web-app that integrates the functionality of <span className="font-semibold text-white">Canvas</span> (Learning Management System), <span className="font-semibold text-white">NUSMods</span> (Semester Planning System), <span className="font-semibold text-white">NUSNextBus</span> (University Shuttle Timing System) into a single site.
           Complemented with productivity features and timetable optimization algorithms to assist users during module registration, Canvas++ aims to be the one-stop go-to platform for university students.
         </motion.p>
