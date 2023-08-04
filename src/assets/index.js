@@ -37,6 +37,9 @@ import summarised from "./summarised.png";
 import diamond from "./diamond.png";
 import humanactivity from "./humanactivity.png"
 
+import canvaslogo from "./canvaslogo.png";
+import canvasposter from "./canvasposter.png";
+
 export {
   logo,
   humanactivity,
@@ -47,9 +50,11 @@ export {
   diamond,
   gcp,
   summarised,
+  canvasposter,
   python,
   mePicture,
   doitvolunteering,
+  canvaslogo,
   googlecolab,
   gmail,
   vercel,
