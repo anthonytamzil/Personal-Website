@@ -28,6 +28,7 @@ import gcp from "./tech/gcp.png";
 import vercel from "./tech/vercel.png";
 import keras from "./tech/keras.png";
 import azure from "./tech/azure.png";
+import seaborn from "./tech/seaborn.png";
 
 import dso from "./company/dso.png"
 import sciencecentre from "./company/sciencecentre.png"
@@ -44,6 +45,9 @@ import devpost from "./devpost.png";
 import doitdashboard from "./doitdashboard.png";
 import summarisedpg1 from "./summarisedpg1.jpg";
 import summarisedpg2 from "./summarisedpg2.jpg";
+import eda from "./eda.png";
+import confusionmatrix from "./confusionmatrix.png";
+import conclusion from "./conclusion.png";
 
 export {
   logo,
@@ -52,6 +56,9 @@ export {
   creator,
   devpost,
   keras,
+  eda,
+  confusionmatrix,
+  conclusion,
   mobile,
   diamond,
   gcp,
@@ -59,6 +66,7 @@ export {
   canvasposter,
   doitdashboard,
   python,
+  seaborn,
   mePicture,
   summarisedpg1,
   summarisedpg2,

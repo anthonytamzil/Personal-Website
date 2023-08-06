@@ -63,7 +63,7 @@ const SummarisedPage = () => {
         </motion.div>
       <motion.div className="mt-4 ml-6 text-[17px] text-white font-medium flex flex-wrap" variants={fadeIn("left", "spring", 0.5, 0.75)}>
         <p>Devpost Link</p>
-        <a className="ml-4 text-[#915eff]" href="https://canvasplusplus--development-4nz19h22.web.app">Canvas++</a>
+        <a className="ml-4 text-[#915eff]" href="https://canvasplusplus--development-4nz19h22.web.app">Summarised</a>
       </motion.div>
       <motion.div className="ml-6 text-[17px] text-white font-medium flex flex-wrap" variants={fadeIn("left", "spring", 0.5, 0.75)}>
         <p>Platform</p>

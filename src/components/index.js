@@ -14,6 +14,7 @@ import ProjectNavbar from './ProjectNavbar';
 import ProjectAbout from "./ProjectAbout";
 import DoItComp from "./DoItComp";
 import SummarisedComp from './SummarisedComp';
+import UserActivityComp from './UserActivityComp';
 
 export {
   Hero,
@@ -26,6 +27,7 @@ export {
   Education,
   Experience,
   Works,
+  UserActivityComp,
   SummarisedComp,
   Feedbacks,
   ProjectNavbar,
