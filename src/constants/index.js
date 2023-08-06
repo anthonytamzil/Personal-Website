@@ -188,7 +188,7 @@ import {
     {
       name: "User Activity Recognition",
       description:
-        "A LSTM machine learning model that obtained a 95% accuracy in predicting a handphone user's physical activity based on accelerometer data.",
+        "A LSTM machine learning model that obtained a 94% accuracy in predicting a handphone user's physical activity based on accelerometer data.",
       tags: [
         {
           name: "python",
@@ -217,7 +217,7 @@ import {
         },
       ],
       image: diamond,
-      source_code_link: "https://drive.google.com/file/d/1finxhyhT-iNov7XHOcTM_zZry-DjKTyX/view?usp=sharing",
+      source_code_link: "https://colab.research.google.com/drive/1finxhyhT-iNov7XHOcTM_zZry-DjKTyX",
     },
   ];
   

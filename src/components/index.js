@@ -15,6 +15,7 @@ import ProjectAbout from "./ProjectAbout";
 import DoItComp from "./DoItComp";
 import SummarisedComp from './SummarisedComp';
 import UserActivityComp from './UserActivityComp';
+import DiamondPredictionComp from "./DiamondPredictionComp";
 
 export {
   Hero,
@@ -28,6 +29,7 @@ export {
   Experience,
   Works,
   UserActivityComp,
+  DiamondPredictionComp,
   SummarisedComp,
   Feedbacks,
   ProjectNavbar,

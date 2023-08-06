@@ -29,6 +29,7 @@ import vercel from "./tech/vercel.png";
 import keras from "./tech/keras.png";
 import azure from "./tech/azure.png";
 import seaborn from "./tech/seaborn.png";
+import scikitlearn from "./tech/scikitlearn.png";
 
 import dso from "./company/dso.png"
 import sciencecentre from "./company/sciencecentre.png"
@@ -48,6 +49,8 @@ import summarisedpg2 from "./summarisedpg2.jpg";
 import eda from "./eda.png";
 import confusionmatrix from "./confusionmatrix.png";
 import conclusion from "./conclusion.png";
+import leaderboard from "./leaderboard.png";
+import award from "./award.png";
 
 export {
   logo,
@@ -60,6 +63,9 @@ export {
   confusionmatrix,
   conclusion,
   mobile,
+  scikitlearn,
+  leaderboard,
+  award,
   diamond,
   gcp,
   summarised,

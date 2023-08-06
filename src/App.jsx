@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Canvas, Home, DoItVolunteering, Summarised, UserActivity } from "./pages";
+import { Canvas, Home, DoItVolunteering, Summarised, UserActivity, DiamondPrediction } from "./pages";
 
 export default function App() {
   return (
@@ -11,6 +11,7 @@ export default function App() {
         <Route path="/DO-IT-Volunteering" element={(<DoItVolunteering/>)}/>
         <Route path="/Summarised" element={(<Summarised/>)}/>
         <Route path="/User Activity Recognition" element={(<UserActivity/>)}/>
+        <Route path="/Diamond Price Prediction" element={(<DiamondPrediction/>)}/>
       </Routes>
 
       {/* Original home page just in case */}
