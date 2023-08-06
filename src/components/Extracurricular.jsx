@@ -2,9 +2,8 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import { Link } from "react-router-dom";
 import { useState } from "react";
-import { keras, python } from "../assets";
+import { keras, python, seaborn } from "../assets";
 
 const fintech = [
   {
@@ -14,8 +13,11 @@ const fintech = [
   {
     name: "Keras",
     icon: keras,
+  },
+  {
+    name: "Seaborn",
+    icon: seaborn,
   }
-
 ];
 
 const TechCard = ({props}) => {
@@ -52,7 +54,7 @@ const ExtracurricularPage = () => {
           Worked on a semester-long research project to understand more about mechanism and applications behind vanilla Recurrent Neural Networks (RNN), Gated Recurrent Units (GRU), and Long-Short Term Memory (LSTM) models
         </li>
         <li>
-          Developed an LSTM model with 94% accuracy to <Link className="font-medium text-[#915eff]">predict user&apos;s physical activity based on the user&apos;s handphone accelerometer data</Link>
+          Developed an LSTM model with 94% accuracy to <a className="font-medium text-[#915eff]" href="/User Activity Recognition">predict user&apos;s physical activity based on the user&apos;s handphone accelerometer data</a>
         </li>
         <li>
           Conducted a workshop for 20 participants on our research and LSTM code implementation
