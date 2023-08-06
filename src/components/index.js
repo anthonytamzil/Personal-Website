@@ -13,6 +13,7 @@ import CanvasComp from './CanvasComp';
 import ProjectNavbar from './ProjectNavbar';
 import ProjectAbout from "./ProjectAbout";
 import DoItComp from "./DoItComp";
+import SummarisedComp from './SummarisedComp';
 
 export {
   Hero,
@@ -25,6 +26,7 @@ export {
   Education,
   Experience,
   Works,
+  SummarisedComp,
   Feedbacks,
   ProjectNavbar,
   Contact,

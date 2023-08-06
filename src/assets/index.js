@@ -27,6 +27,7 @@ import firebase from "./tech/firebase.png";
 import gcp from "./tech/gcp.png";
 import vercel from "./tech/vercel.png";
 import keras from "./tech/keras.png";
+import azure from "./tech/azure.png";
 
 import dso from "./company/dso.png"
 import sciencecentre from "./company/sciencecentre.png"
@@ -41,6 +42,8 @@ import canvaslogo from "./canvaslogo.png";
 import canvasposter from "./canvasposter.png";
 import devpost from "./devpost.png";
 import doitdashboard from "./doitdashboard.png";
+import summarisedpg1 from "./summarisedpg1.jpg";
+import summarisedpg2 from "./summarisedpg2.jpg";
 
 export {
   logo,
@@ -57,6 +60,8 @@ export {
   doitdashboard,
   python,
   mePicture,
+  summarisedpg1,
+  summarisedpg2,
   doitvolunteering,
   canvaslogo,
   googlecolab,
@@ -65,6 +70,7 @@ export {
   mysql,
   linkedin,
   firebase,
+  azure,
   web,
   github,
   canvas,

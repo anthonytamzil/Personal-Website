@@ -70,12 +70,12 @@ const DoItPage = () => {
           <TechCard key={tech.icon} props={tech} /> 
         ))}
       </motion.div>
-      <motion.p className="mt-8 text-xl font-medium flex sm:text-2xl text-secondary uppercase tracking-wider" variants={fadeIn("left", "spring", 0.5, 0.75)}>
+      <motion.p className="mt-10 text-xl font-medium flex sm:text-2xl text-secondary uppercase tracking-wider" variants={fadeIn("left", "spring", 0.5, 0.75)}>
         Project Showcase
       </motion.p>
-      <iframe src="https://www.youtube.com/embed/UoLj1g19A8U" allow="autoplay" width="100%" height="200" allowFullScreen className="mx-auto mt-10 xs:h-[280px] sm:h-[320px] md:h-[360px] md:w-[640px]"></iframe>
+      <iframe src="https://www.youtube.com/embed/UoLj1g19A8U" allow="autoplay" width="100%" height="200" allowFullScreen className="mx-auto mt-4 xs:h-[280px] sm:h-[320px] md:h-[360px] md:w-[640px]"></iframe>
       <img src={doitdashboard} className="w-full md:w-3/4 mx-auto mt-4"/>
-      <img src={devpost} className="w-full md:w-3/4 mx-auto mt-10"/>
+      <img src={devpost} className="w-full md:w-3/4 mx-auto mt-6"/>
     </>
   )
 }
