@@ -76,15 +76,15 @@ const CanvasPage = () => {
       </motion.div>
       <motion.div className="ml-6 text-[17px] text-white font-medium flex flex-wrap" variants={fadeIn("left", "spring", 0.5, 0.75)}>
         <p>Presentation Video</p>
-        <a className="ml-4 text-[#915eff]" href="">NUS Orbital Milestone 3 Video</a>
+        <a className="ml-4 text-[#915eff]" href="https://drive.google.com/file/d/1566smBmHGFEdRYmlZn5N16Z2kIa_i-bn/view?usp=drive_link">NUS Orbital Milestone 3 Video</a>
       </motion.div>
       <motion.div className="ml-6 text-[17px] text-white font-medium flex flex-wrap" variants={fadeIn("left", "spring", 0.5, 0.75)}>
         <p>Poster</p>
-        <a className="ml-4 text-[#915eff]" href="https://drive.google.com/file/d/1HpfmMsL5kr9loiWqSJdVyTN0Rbz1DnBy/view?usp=sharing">NUS Orbital Milestone 3 Poster</a>
+        <a className="ml-4 text-[#915eff]" href="https://drive.google.com/file/d/1eSL_C0ipnsgM0LITz5KkYVrP_YcRJgUZ/view?usp=drive_link">NUS Orbital Milestone 3 Poster</a>
       </motion.div>
       <motion.div className="ml-6 text-[17px] text-white font-medium flex flex-wrap" variants={fadeIn("left", "spring", 0.5, 0.75)}>
         <p>Award</p>
-        <a className="ml-4 text-[#915eff]" href="">Achieved Artemis (Extreme) in Orbital 2023</a>
+        <a className="ml-4 text-[#915eff]" href="https://credentials.nus.edu.sg/be7568e6-f735-4f2f-ad2b-de22190f23cd">Achieved Artemis (Extreme) in Orbital 2023</a>
       </motion.div>
       <motion.div className="ml-6 text-[17px] text-white font-medium flex flex-wrap" variants={fadeIn("left", "spring", 0.5, 0.75)}>
         <p>Platform</p>
